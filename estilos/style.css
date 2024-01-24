@@ -11,10 +11,18 @@
     ---cor03: #5B68AD;
 }
 
-header{
-    border: 1px solid black;
+body,html{
     width: 100vw;
-    padding: 20px;   
+    height: 100vh;
+    background-color: #243487;
+}
+
+header{
+    background-color: #5B68AD;
+    width: 541px;
+    margin-bottom: 125px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.539);
+
 }
 
 
@@ -23,28 +31,54 @@ header > h1 {
 }
 
 main{
-    width: 500px;
-    height: 80vh;
-    margin: auto;
+    width: 540px;
+    height: 80%;
+  
 }
 
 #formulario-principal{
-    border: 1px solid black;
-    padding: 20px;
     text-align: center;
-    height: 90%;
+     
+}
+form{
     
-
-   
+    background-color: rgba(128, 128, 128, 0.683);
+    border-radius: 3px;
+    width: 540px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.539);
+    
+}
+#imagem{
+    
+    background-image: url(../imagens/pexels-taken-neto-10850828\ \(1\).jpg);
+    width: 100%;
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    margin: 2px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.539);
 }
 
-label {
-    font-size: 1.5em;
-}
-
-#formulario-principal > form > p > input {
-    margin-bottom: 20px;
+input {
+    margin-top: 15px;
+    margin-bottom: 10px;
     padding: 15px;
     margin-left: 4px;
+    border-radius: 5px;
 
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+  
+}
+
+footer > p > a {   
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
