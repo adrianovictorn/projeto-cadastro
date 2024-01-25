@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+:root{
+    ---cor01:#243487;
+    ---cor02: #432087;
+    ---cor03: #5B68AD;
+}
+
+@media screen and (min-width:780px ) and (max-width: 900px) {
+
+    body, html{
+        background-image: linear-gradient(to bottom, #183df7fd ,#432087);
+    }
+
+    header {
+        width: 100%;
+    }
+    
+
+    #imagem{
+    
+        position: relative;
+        top: 320px;
+        left: 150px ;
+    }
+
+    form{
+        position: relative;
+        bottom: 245px;
+        left: 150px;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width: 1200px) {
+    body, html{
+        background-image: linear-gradient(to bottom, #183df7fd ,#432087);
+        
+    }
+
+    header {
+        width: 100%;
+    }
+    
+
+    #imagem{
+    
+        position: relative;
+        top: 320px;
+        left: 225px ;
+    }
+
+    form{
+        position: relative;
+        bottom: 245px;
+        left: 225px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    body, html{
+        background-image: linear-gradient(to bottom, #183df7fd ,#432087);
+        
+    }
+
+    header {
+        width: 100%;
+    }
+    
+
+    #imagem{
+       display: none;
+    }
+
+    form{
+        position: relative;
+        left: 720px;
+        
+    }
+}

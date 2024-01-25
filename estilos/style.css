@@ -69,6 +69,11 @@ input {
 
 }
 
+input:hover{
+    background-color: #432087;
+    color: white;
+}
+
 footer{
     background-color: black;
     color: white;
